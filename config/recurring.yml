@@ -9,6 +9,7 @@
 #     priority: 2
 #     schedule: at 5am every day
 
+# for testing:
 development:
   queue_heartbeat:
     class: QueueHeartbeatJob
