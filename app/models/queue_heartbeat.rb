@@ -1,0 +1,2 @@
+class QueueHeartbeat < ApplicationRecord
+end
