@@ -100,6 +100,7 @@ production:
     variables:
       statement_timeout: "10s"
       lock_timeout: "5s"
+      idle_in_transaction_session_timeout: "300s"
     keepalives: 1
     keepalives_idle: 10
     keepalives_interval: 5
